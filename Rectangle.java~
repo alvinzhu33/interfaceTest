@@ -17,7 +17,7 @@ public class Rectangle extends Shape implements Area{
     }
 
     public String toString(){
-	return "Rectangle "+getName()+" with a length of "+length+" and a width of "+width;
+	return "Rectangle with a length of "+length+" and a width of "+width;
     }
 
     public double getArea(){
