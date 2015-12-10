@@ -37,7 +37,17 @@ public class Driver{
     */
 
     public static void main(String[]args){
-	
+	Circle c1 = new Circle(5, "five");
+	System.out.println(c1.getArea());
+
+	Rectangle r1 = new Rectangle(10,5, "10 by 5");
+	System.out.println(r1.getArea());
+
+	Prism p1 = new Prism(13, 11, 5, "13x11x5");
+	System.out.println(p1.getVolume());
+
+	Cylinder cy1= new Cylinder(8,7,"8 by 7");
+	System.out.println(cy1.getVolume());
 	/*//UNCOMMENT THIS WHEN YOU DO AREA
 	  Area[] twos = new Area[5];
 	  for(int i = 0; i < twos.length; i++){
